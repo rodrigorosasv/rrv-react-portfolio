@@ -7,7 +7,7 @@ function Projectm() {
         <h2>Project Management</h2>
         <div className="card-deck">
           <div className="card">
-            <img className="card-img-top" src="Assets/Images/newvolaris.png" alt="Card image cap"></img>
+            <img className="card-img-top" src={require("../Assets/Images/newvolaris.png")} alt="Card image cap"></img>
             <div className="card-body">
               <h5 className="card-title">New Gen Volaris.com</h5>
               <p className="card-text">  
@@ -25,7 +25,7 @@ function Projectm() {
             </div>
           </div>
           <div className="card">
-            <img className="card-img-top" src="Assets/Images/currentvolaris.png" alt="Card image cap"></img>
+            <img className="card-img-top" src={require("../Assets/Images/currentvolaris.png")} alt="Card image cap"></img>
             <div className="card-body">
               <h5 className="card-title">Volaris.com</h5>
               <p className="card-text">
@@ -43,7 +43,7 @@ function Projectm() {
             </div>
           </div>
           <div className="card">
-            <img className="card-img-top" src="Assets/Images/mytrips.png" alt="Card image cap"></img>
+            <img className="card-img-top" src={require("../Assets/Images/mytrips.png")} alt="Card image cap"></img>
             <div className="card-body">
               <h5 className="card-title">Volaris Manage my Booking</h5>
               <p className="card-text">

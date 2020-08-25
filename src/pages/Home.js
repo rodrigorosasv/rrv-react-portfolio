@@ -42,7 +42,7 @@ function Home() {
             </div>
             <div className="col mb-4">
                 <div className="card h-100">
-                    <img src="Assets/Images/pmanagement.jpg" className="card-img-top" alt="Project Management"></img>
+                    <img src={require("../Assets/Images/pmanagement.jpg")} className="card-img-top" alt="Project Management"></img>
                     <div className="card-body">
                         <h5 className="card-title">Project Management</h5>
                         <p className="card-text">More than 7 years managing high impact digital projects for multiple companies like Volaris and Bluemessaging.</p>
@@ -54,7 +54,7 @@ function Home() {
             </div>
             <div className="col mb-4">
                 <div className="card h-100">
-                    <img src="Assets/Images/consulting.jpeg" className="card-img-top" alt="Consulting"></img>
+                    <img src={require("../Assets/Images/consulting.jpeg")} className="card-img-top" alt="Consulting"></img>
                     <div className="card-body">
                         <h5 className="card-title">IT Consulting</h5>
                         <p className="card-text">+6 years working as a consultor and business analyst, applying IT best practices. </p>

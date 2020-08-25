@@ -7,7 +7,7 @@ function Hero() {
             <div class="row justify-content-md-center" style={{paddingTop:"25px;"}}>
                 <div class="col-md-3">
                 <div>
-                    <img class="align-self-center mr-3 imagew" src="Assets/Images/Rodrigo.jpg" alt="Rodrigo Rosas Valdes"></img>
+                    <img class="align-self-center mr-3 imagew" src={require("../Assets/Images/Rodrigo.jpg")} alt="Rodrigo Rosas Valdes"></img>
                 </div>
                 </div>
                 <div class="col-md-9">

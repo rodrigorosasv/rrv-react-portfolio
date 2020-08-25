@@ -5,7 +5,7 @@
     "description":"A fun page to learn how to prepare different drinks. Responsive design and fun way to follow recipees.",
     "github":"https://github.com/raul-ae/project-1.git",
     "link":"https://raul-ae.github.io/project-1/",
-    "image": "Assets/Images/wikidrinks.png"
+    "image": "..Assets/Images/wikidrinks.png"
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "description":"A Fullstack app to know about services around your area. Help your community promoting services around you.",
     "github":"https://github.com/BrockBatBlue/Project_2",
     "link":"https://handshake-service-app.herokuapp.com/",
-    "image": "Assets/Images/handshake.png"
+    "image": "..Assets/Images/handshake.png"
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "description":"A site where you can search for the current weather.",
     "github":"https://github.com/rodrigorosasv/WeatherDashboard.git",
     "link":"https://rodrigorosasv.github.io/WeatherDashboard/",
-    "image": "Assets/Images/weather.png"
+    "image": "..Assets/Images/weather.png"
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@
     "description":"An application to take notes, add, modify and delete.",
     "github":"https://github.com/rodrigorosasv/noteTaker.git",
     "link":"https://damp-meadow-97491.herokuapp.com/",
-    "image": "Assets/Images/noteTaker.png"
+    "image": "..Assets/Images/noteTaker.png"
   },
   {
     "id": 5,
@@ -37,7 +37,7 @@
     "description":"An Fullstack app to keep track of desired burgers and if you already devoured them.",
     "github":"https://github.com/rodrigorosasv/burger.git",
     "link":"https://burgers-rrv.herokuapp.com/",
-    "image": "Assets/Images/burgers.png"
+    "image": "..Assets/Images/burgers.png"
   },
   {
     "id": 6,
@@ -45,6 +45,6 @@
     "description":"Plan your activities for the day.",
     "github":"https://github.com/rodrigorosasv/dayplanner.git",
     "link":"https://rodrigorosasv.github.io/dayplanner/",
-    "image": "Assets/Images/dayplanner.png"
+    "image": "..Assets/Images/dayplanner.png"
   }
 ]

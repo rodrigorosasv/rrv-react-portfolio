@@ -19,7 +19,7 @@ function Header() {
             <li className="nav-item">
                 <Link
                     to="/"
-                    className={window.location.pathname === "/" ? "nav-link active": "nav-link"}
+                    className={window.location.pathname === "rrv-react-portfolio/" ? "nav-link active": "nav-link"}
                     >
                     About Me
                 </Link>
@@ -27,7 +27,7 @@ function Header() {
             <li className="nav-item">
                 <Link
                     to="/portfolio"
-                    className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
+                    className={window.location.pathname === "rrv-react-portfolio/portfolio" ? "nav-link active" : "nav-link"}
                     >
                     Portfolio
                 </Link>
@@ -35,7 +35,7 @@ function Header() {
             <li className="nav-item">
                 <Link
                     to="/projectm"
-                    className={window.location.pathname === "/projectm" ? "nav-link active" : "nav-link"}
+                    className={window.location.pathname === "rrv-react-portfolio/projectm" ? "nav-link active" : "nav-link"}
                     >
                     Project Management
                 </Link>
@@ -43,7 +43,7 @@ function Header() {
             <li className="nav-item">
                 <Link
                     to="/itconsulting"
-                    className={window.location.pathname === "/itconsulting" ? "nav-link active" : "nav-link"}
+                    className={window.location.pathname === "rrv-react-portfolio/itconsulting" ? "nav-link active" : "nav-link"}
                     >
                     IT Consulting
                 </Link>

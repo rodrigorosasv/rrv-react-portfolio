@@ -1,0 +1,17 @@
+.marginport{
+    margin: 50px 0;
+}
+.marginbutton{
+    margin-bottom: 10px;
+}
+.imagew{
+    width: 150px;
+}
+.links{
+    text-decoration: none;
+    color: black;
+}
+.links:hover{
+    text-decoration: none;
+    color: darkgrey; 
+}

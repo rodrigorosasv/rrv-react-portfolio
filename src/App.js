@@ -13,15 +13,15 @@ import Wrapper from "./components/Wrapper";
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router>
       <Header />
       <Hero />
       <Wrapper>
-        <Route exact path={process.env.PUBLIC_URL + '/'}  component={Home} />
-        <Route exact path={process.env.PUBLIC_URL + '/about'} component={Home} />
-        <Route exact path={process.env.PUBLIC_URL + '/portfolio'} component={Portfolio} />
-        <Route exact path={process.env.PUBLIC_URL + '/projectm'} component={Projectm} />
-        <Route exact path={process.env.PUBLIC_URL + '/itconsulting'} component={Itconsulting} />
+        <Route exact path={process.env.PUBLIC_URL + 'rrv-react-portfolio/'}  component={Home} />
+        <Route exact path={process.env.PUBLIC_URL + 'rrv-react-portfolio/about'} component={Home} />
+        <Route exact path={process.env.PUBLIC_URL + 'rrv-react-portfolio/portfolio'} component={Portfolio} />
+        <Route exact path={process.env.PUBLIC_URL + 'rrv-react-portfolio/projectm'} component={Projectm} />
+        <Route exact path={process.env.PUBLIC_URL + 'rrv-react-portfolio/itconsulting'} component={Itconsulting} />
       </Wrapper>
       <Footer />
     </Router>

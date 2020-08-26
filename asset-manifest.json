@@ -1,23 +1,33 @@
 {
   "files": {
     "main.css": "/rrv-react-portfolio/static/css/main.5f361e03.chunk.css",
-    "main.js": "/rrv-react-portfolio/static/js/main.6b376776.chunk.js",
-    "main.js.map": "/rrv-react-portfolio/static/js/main.6b376776.chunk.js.map",
+    "main.js": "/rrv-react-portfolio/static/js/main.548452d2.chunk.js",
+    "main.js.map": "/rrv-react-portfolio/static/js/main.548452d2.chunk.js.map",
     "runtime-main.js": "/rrv-react-portfolio/static/js/runtime-main.5236fad2.js",
     "runtime-main.js.map": "/rrv-react-portfolio/static/js/runtime-main.5236fad2.js.map",
     "static/js/2.c6c8ef31.chunk.js": "/rrv-react-portfolio/static/js/2.c6c8ef31.chunk.js",
     "static/js/2.c6c8ef31.chunk.js.map": "/rrv-react-portfolio/static/js/2.c6c8ef31.chunk.js.map",
     "index.html": "/rrv-react-portfolio/index.html",
-    "precache-manifest.2f5ca2bc293b9a1f2bd089403c340061.js": "/rrv-react-portfolio/precache-manifest.2f5ca2bc293b9a1f2bd089403c340061.js",
+    "precache-manifest.4dedfcaaba4f60c881cc4709271f8c72.js": "/rrv-react-portfolio/precache-manifest.4dedfcaaba4f60c881cc4709271f8c72.js",
     "service-worker.js": "/rrv-react-portfolio/service-worker.js",
     "static/css/main.5f361e03.chunk.css.map": "/rrv-react-portfolio/static/css/main.5f361e03.chunk.css.map",
     "static/js/2.c6c8ef31.chunk.js.LICENSE.txt": "/rrv-react-portfolio/static/js/2.c6c8ef31.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/rrv-react-portfolio/static/media/logo.5d5d9eef.svg"
+    "static/media/Rodrigo.jpg": "/rrv-react-portfolio/static/media/Rodrigo.fb86f016.jpg",
+    "static/media/coding.jpg": "/rrv-react-portfolio/static/media/coding.39e9f346.jpg",
+    "static/media/consulting.jpeg": "/rrv-react-portfolio/static/media/consulting.da92000d.jpeg",
+    "static/media/currentvolaris.png": "/rrv-react-portfolio/static/media/currentvolaris.8b1df018.png",
+    "static/media/logo.svg": "/rrv-react-portfolio/static/media/logo.5d5d9eef.svg",
+    "static/media/mobileapp.jpg": "/rrv-react-portfolio/static/media/mobileapp.a3e6b6c8.jpg",
+    "static/media/mytrips.png": "/rrv-react-portfolio/static/media/mytrips.30911a99.png",
+    "static/media/newvolaris.png": "/rrv-react-portfolio/static/media/newvolaris.c790451a.png",
+    "static/media/pmanagement.jpg": "/rrv-react-portfolio/static/media/pmanagement.c34a5082.jpg",
+    "static/media/vane.png": "/rrv-react-portfolio/static/media/vane.0bee3acc.png",
+    "static/media/vpass.png": "/rrv-react-portfolio/static/media/vpass.d99d6f3a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.5236fad2.js",
     "static/js/2.c6c8ef31.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.6b376776.chunk.js"
+    "static/js/main.548452d2.chunk.js"
   ]
 }

@@ -36,7 +36,7 @@ function Home() {
                         </p>
                     </div>
                     <div className="text-center marginbutton">
-                        <a href="{{site.baseurl}}/portfolio" target="_self" className="btn btn-outline-dark" role="button">See more</a>
+                        <a href="/portfolio" target="_self" className="btn btn-outline-dark" role="button" onclick="window.open('/portfolio', '_self');">See more</a>
                     </div>
                 </div>
             </div>
@@ -48,7 +48,7 @@ function Home() {
                         <p className="card-text">More than 7 years managing high impact digital projects for multiple companies like Volaris and Bluemessaging.</p>
                     </div>
                     <div className="text-center marginbutton">
-                        <a href="{{site.baseurl}}/projectm" target="_self" className="btn btn-outline-dark" role="button">See more</a>
+                        <a href="/projectm" target="_self" className="btn btn-outline-dark" role="button" onclick="window.open('/portfolio', '_self');">See more</a>
                     </div>
                 </div>
             </div>
@@ -60,7 +60,7 @@ function Home() {
                         <p className="card-text">+6 years working as a consultor and business analyst, applying IT best practices. </p>
                     </div>
                     <div className="text-center marginbutton">
-                        <a href="{{site.baseurl}}/itconsulting" target="_self" className="btn btn-outline-dark" role="button">See more</a>
+                        <a href="/itconsulting" target="_self" className="btn btn-outline-dark" role="button" onclick="window.open('/portfolio', '_self');">See more</a>
                     </div>
                 </div>
             </div>

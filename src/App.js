@@ -17,11 +17,11 @@ function App() {
       <Header />
       <Hero />
       <Wrapper>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/about" component={Home} />
-        <Route exact path="/portfolio" component={Portfolio} />
-        <Route exact path="/projectm" component={Projectm} />
-        <Route exact path="/itconsulting" component={Itconsulting} />
+        <Route exact path={process.env.PUBLIC_URL + '/'}  component={Home} />
+        <Route exact path={process.env.PUBLIC_URL + '/about'} component={Home} />
+        <Route exact path={process.env.PUBLIC_URL + '/portfolio'} component={Portfolio} />
+        <Route exact path={process.env.PUBLIC_URL + '/projectm'} component={Projectm} />
+        <Route exact path={process.env.PUBLIC_URL + '/itconsulting'} component={Itconsulting} />
       </Wrapper>
       <Footer />
     </Router>

@@ -6,7 +6,7 @@ function Header() {
     <header>
         <nav className="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
         <Link 
-            to="/"
+            to={process.env.PUBLIC_URL + '/'}
             className="navbar-brand"
             >
             <i className="fas fa-braille" style={{color: "white"}}></i> 
@@ -19,7 +19,7 @@ function Header() {
             <ul className="navbar-nav ml-auto">
             <li className="nav-item">
                 <Link
-                    to="/"
+                    to={process.env.PUBLIC_URL + '/'}
                     className={window.location.pathname === "/" ? "nav-link active": "nav-link"}
                     >
                     About Me
@@ -27,7 +27,7 @@ function Header() {
             </li>
             <li className="nav-item">
                 <Link
-                    to="/portfolio"
+                    to={process.env.PUBLIC_URL + '/portfolio'}
                     className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
                     >
                     Portfolio
@@ -35,7 +35,7 @@ function Header() {
             </li>
             <li className="nav-item">
                 <Link
-                    to="/projectm"
+                    to={process.env.PUBLIC_URL + '/projectm'}
                     className={window.location.pathname === "/projectm" ? "nav-link active" : "nav-link"}
                     >
                     Project Management
@@ -43,7 +43,7 @@ function Header() {
             </li>
             <li className="nav-item">
                 <Link
-                    to="/itconsulting"
+                    to={process.env.PUBLIC_URL + '/itconsulting'}
                     className={window.location.pathname === "/itconsulting" ? "nav-link active" : "nav-link"}
                     >
                     IT Consulting

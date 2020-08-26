@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -36,7 +37,14 @@ function Home() {
                         </p>
                     </div>
                     <div className="text-center marginbutton">
-                        <a href="/portfolio" target="_self" className="btn btn-outline-dark" role="button" onclick="window.open('/portfolio', '_self');">See more</a>
+                    <Link
+                        to={process.env.PUBLIC_URL + '/portfolio'}
+                        className="btn btn-outline-dark"
+                        target="_self"
+                        role="button"
+                        >
+                        Portfolio
+                    </Link>
                     </div>
                 </div>
             </div>
@@ -48,7 +56,14 @@ function Home() {
                         <p className="card-text">More than 7 years managing high impact digital projects for multiple companies like Volaris and Bluemessaging.</p>
                     </div>
                     <div className="text-center marginbutton">
-                        <a href="/projectm" target="_self" className="btn btn-outline-dark" role="button" onclick="window.open('/portfolio', '_self');">See more</a>
+                        <Link
+                            to={process.env.PUBLIC_URL + '/projectm'}
+                            className="btn btn-outline-dark"
+                            target="_self"
+                            role="button"
+                            >
+                            Project Management
+                        </Link>
                     </div>
                 </div>
             </div>
@@ -60,7 +75,14 @@ function Home() {
                         <p className="card-text">+6 years working as a consultor and business analyst, applying IT best practices. </p>
                     </div>
                     <div className="text-center marginbutton">
-                        <a href="/itconsulting" target="_self" className="btn btn-outline-dark" role="button" onclick="window.open('/portfolio', '_self');">See more</a>
+                        <Link
+                            to={process.env.PUBLIC_URL + '/itconsulting'}
+                            className="btn btn-outline-dark"
+                            target="_self"
+                            role="button"
+                            >
+                            Consulting
+                        </Link>
                     </div>
                 </div>
             </div>

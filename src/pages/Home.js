@@ -8,8 +8,9 @@ function Home() {
             <h3>Some information about me</h3>
             <p className="mt-0">Motivated and skilled professional with more than 7 years of experience and a proven record managing E-commerce, IT and Digital projects from concept to completion and support. Strong business analysis and product management skills, including analytical thinking, creative problem solving and self-learning. 
                 Passionate about technology, e-commerce and the digital industry. Always looking for the last tendencies, technology and practices to help achieving business goals.
+
             </p>
-            <p className="mt-0">Currently learning to code.</p>
+            <p className="mt-0">Fullstack developer, please check my development portfolio..</p>
         </div>
 
         <div className="row" style={{margin: "5px;"}}>
@@ -23,7 +24,7 @@ function Home() {
                     <div className="card-body">
                         <h5 className="card-title">Development</h5>
                         <p className="card-text">
-                        Currently learning to code
+                        Fullstack Developer:
                         <ul>
                             <li>HTML</li>
                             <li>CSS</li>
